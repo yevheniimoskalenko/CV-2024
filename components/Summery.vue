@@ -1,7 +1,7 @@
 <template>
 <section>
     <div class=" w-16 h-20">
-        <NuxtImg src="/avatar.webp" width="64" :placeholder="[64, 80]" class=" rounded-full overflow-hidden object-cover" alt="Yevhenii Moskalenko"/>
+        <NuxtImg src="/avatar.webp" width="64" height="80" :placeholder="[64, 80]" class=" rounded-full overflow-hidden object-cover" alt="Yevhenii Moskalenko"/>
     </div>
       <h1 class="text-2xl mt-2">Welcome to my Portfolio 👋</h1>
       <h2 class=" font-bold md:text-xl uppercase">SUMMARY</h2>

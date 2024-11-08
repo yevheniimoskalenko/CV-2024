@@ -3,7 +3,7 @@
     <h2 class="font-bold  md:text-xl uppercase">Experience</h2>
       <div class=" grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-5"> 
         <div v-for="(item, index) in experience" class="" :key="index">
-          <h3 class="text-gray-400 font-light">{{ item.company }}</h3>
+          <h3 class="text-gray-500 font-light">{{ item.company }}</h3>
           <p class="font-light">{{ item.position }}</p>
           <time :date="item.date" class="text-gray-500 font-light">{{ item.startDate }} — {{ item.endDate }}</time>
         </div>
